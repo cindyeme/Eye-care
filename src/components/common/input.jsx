@@ -4,7 +4,7 @@ import React from 'react';
 export const Select = ({ choices, name, onChange, defaultValue, disabled, className, value }) => {
   const currentValue = value || defaultValue;
   return (
-    <select className={ `${className} font-medium appearance-none pt-2 pr-10 pb-2 pl-3 leading-normal` } disabled={ disabled } onChange={ onChange } name={ name } id={ name } value={currentValue}>
+    <select className={ `${className} font-medium appearance-none pt-2 pr-10 pb-2 pl-3 leading-normal capitalize` } disabled={ disabled } onChange={ onChange } name={ name } id={ name } value={currentValue} required>
       <option className="text-gray-400 placeholder-opacity-50" value={ defaultValue } disabled>
         { defaultValue }
       </option>
@@ -19,5 +19,5 @@ export const Select = ({ choices, name, onChange, defaultValue, disabled, classN
 
 // Input
 export const Input = ({type, name, onChange, value, className, disabled}) => (
-  <input type={type} id={name} name={name} value={value} className={`${className} font-medium`} disabled={disabled} onChange={onChange} />
+  <input type={type} id={name} name={name} value={value} className={`${className} font-medium`} disabled={disabled} onChange={onChange} required />
 );

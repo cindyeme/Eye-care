@@ -2,7 +2,8 @@ import React from 'react';
 
 import bgImage from '../../images/hero-bg.png';
 import doc from '../../images/doc.svg';
-import fDoc from '../../images/lady-doc.svg';
+import fDoc from '../../images/lady_doc.png';
+import Testimonials from './testimonials';
 
 
 const AboutContainer = () => (
@@ -45,9 +46,11 @@ const AboutContainer = () => (
           </div>
         </div>
         <div className="lg:col-span-1">
-          <img src={fDoc} alt="doctor" className="w-full object-fit" style={{height: 450, width: '100%'}} />
+          <img src={fDoc} alt="doctor" className="w-full object-fit" style={{ width: '100%'}} />
         </div>
       </div>
+
+      <Testimonials />
     </div>
   </section>
 );

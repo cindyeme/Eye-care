@@ -121,4 +121,4 @@ dist
 .env.production.local
 
 # tailwindcss output
-src/styles/tailwind.output.css
+# src/styles/tailwind.output.css

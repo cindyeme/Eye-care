@@ -9,7 +9,7 @@ import AboutUs from './pages/about-us';
 function App() {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path={`${process.env.PUBLIC_URL}/`}>
         <LandingPage />
       </Route>
       <Route path="/about-us">

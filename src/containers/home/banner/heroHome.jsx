@@ -5,7 +5,7 @@ import { faWheelchair } from '@fortawesome/free-solid-svg-icons';
 import { faIdBadge } from '@fortawesome/free-solid-svg-icons';
 
 import bgImage from '../../../images/hero-bg.png';
-import hero from '../../../images/hero-img.svg';
+import hero from '../../../images/hero-img.png';
 import ConsultForm from '../appointment/consult-form';
 import { ButtonPrimary, ButtonTrans } from '../../../components/button/button';
 import { SingleDoc } from '../../../components/svg/svg';

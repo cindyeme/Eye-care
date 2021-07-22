@@ -10,7 +10,7 @@ const AboutContainer = () => (
   <section className="relative">
     <div className="bg-cover bg-no-repeat w-full h-full absolute inset-0" style={ { backgroundImage: `url(${bgImage})` } } />
     <div className="relative h-scree max-w-[1300px] mx-auto px-4 sm:px-6" >
-      <div className="grid lg:grid-cols-2 gap-y-6 pt-8 lg:pt-20 z-20">
+      <div className="grid lg:grid-cols-2 gap-y-6 pt-28 lg:pt-20 z-20">
         <div className="lg:col-span-1 lg:pt-20 order-2 lg:order-1">
           <img src={doc} alt="doctor" className="z-0 w-full" style={{height: 500}} />
         </div>
@@ -18,7 +18,7 @@ const AboutContainer = () => (
         <div className="lg:col-span-1 lg:pt-20 order-1 lg:order-2">
           <div>
             <div className="flex flex-col item-center lg:items-start space-y-4 mb-5">
-              <p className="text-primary-900 font-semibold text-lg">-About us</p>
+              <p className="text-primary-900 font-semibold text-lg text-center lg:text-left">-About us</p>
               <h1 className="h1 capitalize font-poppins text-3xl lg:text-5xl font-bold text-grayish-900 text-center lg:text-left leading-8" style={{lineHeight: 1.3}}><span className="text-primary-900 pr-4">Zinny</span>EyeCare Vision &amp; Mission</h1>
             </div>
             <p className="text-gray-600 lg:text-lg">
@@ -34,7 +34,7 @@ const AboutContainer = () => (
         <div className="lg:col-span-1">
           <div>
             <div className="flex flex-col item-center lg:items-start space-y-4 mb-5">
-              <p className="text-primary-900 font-semibold text-lg">-Why Us</p>
+              <p className="text-primary-900 font-semibold text-lg text-center lg:text-left">-Why Us</p>
               <h1 className="h1 capitalize font-poppins text-3xl lg:text-5xl font-bold text-grayish-900 text-center lg:text-left leading-8" style={{lineHeight: 1.3}}>Find the right <span className="text-primary-900 pr-4"> Care</span>right at your fingertips</h1>
             </div>
             <p className="text-gray-600 lg:text-lg pb-4">

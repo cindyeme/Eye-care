@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  font-family: "Poppins",
+  sans-serif;
+  overflow-x: hidden;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.blur {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+/* Typography */
+.h1 {
+  @apply text-4xl font-extrabold leading-loose tracking-wide;
+}
+
+.h2 {
+  @apply text-3xl font-extrabold leading-normal tracking-normal;
+}
+
+.h3 {
+  @apply text-3xl font-bold leading-tight;
+}
+
+.h4 {
+  @apply text-2xl font-bold leading-snug tracking-tight;
+}
+
+@screen md {
+  .h1 {
+    @apply text-5xl;
+  }
+
+  .h2 {
+    @apply text-4xl;
+  }
+}
+
+/* Buttons */
+
+/* .btn,
+.btn-sm {
+  @apply font-medium text-center rounded transition duration-150 ease-in-out;
+}
+.btn {
+  @apply px-4 py-2 shadow-lg;
+}
+
+.btn-sm {
+  @apply px-3 py-2 shadow;
+}
+
+@screen md {
+  
+} */
